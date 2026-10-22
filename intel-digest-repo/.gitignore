@@ -1,0 +1,23 @@
+# Secrets
+.env
+*.env
+!.env.example
+
+# Runtime state and logs
+intel_digest.db
+*.db
+cron.log
+archive.log
+telegram_offset.txt
+
+# Generated output (may contain whatever your profile produces)
+digests/
+
+# Generated / large
+attack_techniques.json
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc

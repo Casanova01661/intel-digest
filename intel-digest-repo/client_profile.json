@@ -1,0 +1,36 @@
+{
+  "client_name": "Sample Client (synthetic - replace with real profile)",
+  "industry": ["EV charging", "energy", "critical infrastructure", "automotive"],
+  "vendors_and_products": [
+    "Cisco Meraki",
+    "Microsoft Entra ID",
+    "Windows Server 2022",
+    "Microsoft Defender for Endpoint",
+    "CrowdStrike Falcon",
+    "Fortinet FortiGate",
+    "Palo Alto Networks firewalls",
+    "Stripe",
+    "Adyen",
+    "AWS (EC2, S3, IoT Core)",
+    "Kubernetes",
+    "Docker",
+    "OCPP 2.0.1",
+    "ISO 15118 (Plug and Charge)",
+    "Siemens charging station firmware",
+    "ABB charging station firmware",
+    "SCADA",
+    "Modbus",
+    "MQTT (IoT telemetry)",
+    "Twilio (SMS/notifications)"
+  ],
+  "exposed_services": [
+    "RDP",
+    "VPN gateway",
+    "public REST API endpoint",
+    "payment processing",
+    "OTA firmware update servers",
+    "customer-facing mobile app backend",
+    "IoT device telemetry ingestion"
+  ],
+  "notes": "This is a SYNTHETIC profile for homelab prototyping only. Reflects a plausible 2026 EV charging/energy tech stack (cloud infra, OT/IoT charging protocols, payment processing, identity). Replace vendors_and_products and exposed_services with a real client's asset inventory before using this against production intel."
+}
